@@ -1,0 +1,10 @@
+ul.social-network{
+    list-style: none;
+}
+
+ul.social-network li{
+    display: inline-flex;
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+}
