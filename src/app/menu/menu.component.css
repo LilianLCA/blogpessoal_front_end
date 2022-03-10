@@ -1,0 +1,28 @@
+.fs-16{
+    font-size: 16pt;
+}
+
+.padding-left{
+    padding-left: 2rem;
+}
+
+.pdl{
+    padding-left: 60rem;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.p:hover{
+    color: grey;
+}
+
+ul.sair li:hover{
+    color: grey;
+}
