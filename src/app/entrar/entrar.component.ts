@@ -44,10 +44,3 @@ export class EntrarComponent implements OnInit {
     })
     }
   }
-
-//no video ele não adiciona uma routerLink no botão entrar (entrar.component.html) para a página inicio. Porém, depois que ele faz o login do
-//usuario, ao clicar no entrar, direciona para a página de inicio (e o meu não)//
-//Preciso verificar se o subscribe riscado dessa página irá afetar o restante.//
-//Continua aparecendo o erro 'Usuario ou senha incorretos' mesmo quando a senha está correta e não carrega para a página de inicio e mesmo 
-//acrescentando um router, fica errado porque vai direto para a pág de inicio com o erro 'Usuario ou senha incorretos', 
-//não sei se está relacionado ao subscribe//
