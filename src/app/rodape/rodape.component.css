@@ -8,3 +8,11 @@ ul.social-network li{
     padding: 5px;
     cursor: pointer;
 }
+
+.bg{
+    background-color: #e58e26;
+}
+
+.bgf{
+    background-color: #fad390;
+}
