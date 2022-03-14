@@ -63,6 +63,10 @@
                 <small class="text-muted">Tema:</small><!--Tema: {{item.tema.descricao}} apresenta erro, por isso subs por Tema-->
                 <p class="card-text">{{item.texto}}</p>
                 <p class="card-text"><small class="text-muted">{{item.date | date: 'dd/MM/yyyy'}} às {{item.date | date: 'HH:mm'}}</small></p>
+
+                <a [routerLink]="['/postagem-edit', item.id]" class="text-info" href="">Editar</a>
+                <a [routerLink]="['/postagem-delete', item.id]" class="text-info" href="">Apagar</a>
+
               </div>
             </div>
           </div>
