@@ -27,9 +27,4 @@ export class MenuComponent implements OnInit {
     environment.foto = ''
     environment.id = 0
   }
-
-  nomeMenu(){
-    this.router.navigate(['/cadastrar'])
-  }
-
 }

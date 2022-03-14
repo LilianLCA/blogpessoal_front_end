@@ -1,0 +1,39 @@
+<div class="container mt-5 mb-5">
+    <div class="row d-flex align-items-center">
+        <div class="col-md-12">
+            <h1 class="text-center text-light">Apagar Postagem</h1>
+        </div>
+    </div>
+
+    <div class="rowd-flex align-items-center">
+        <div class="col-md-12">
+            <h4 class="text-center text-light">Você tem certeza que deseja apagar a postagem?</h4>
+        </div>
+    </div>
+
+    <div class="row d-flex align-items-center mt-5">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title m-0">{{postagem.titulo}}</h5>
+                    <small class="text-muted">Tema:</small><!--Tema: {{item.tema.descricao}} apresenta erro, por isso subs por Tema-->
+                    <p class="card-text">{{postagem.texto}}</p>
+                    <p class="card-text"><small class="text-muted">{{postagem.date | date: 'dd/MM/yyyy'}} às {{postagem.date | date: 'HH:mm'}}</small></p>
+                    <p class="card-text"><small class="text-muted">by: {{postagem.usuario.nome}}</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-md-12 d-flex justify-content-center">
+            <button class="btn btn-danger mr-4" routerLink='/inicio'>Não</button>
+            <button class="btn btn-success" (click)='apagar()'>Sim</button>
+        </div>
+    </div>
+
+
+
+</div>
+
+
